@@ -1,7 +1,7 @@
 ## Inspiration
 
 I came up with it when the TimerAPI was GA to the public and could be used in skills.
-It can make boiled eggs with different hardness. Just launch the skill once.
+It can make boiled eggs with different finish (Hard boiled, Soft-boiled....). Just launch the skill once.
 This way you don't have to keep playing music all the time, and you can turn off the timer by voice if you don't need it.
 
 ## What it does
@@ -38,7 +38,6 @@ I had two problems.
     requestEnvelope["context"]["Alexa.Presentation.APL"]
     ```
 
-
 2. The timer API permissions cannot be set from the Alexa app.
 
     Problem
@@ -57,7 +56,6 @@ I had two problems.
 
 I was able to understand APL and APL for Audio very much.
 The combination of APL commands and APLA creates great skills.
-
 I am now able to make insanely delicious boiled eggs.
 
 ## What I learned
