@@ -1,0 +1,83 @@
+{
+  "type"      : "Alexa.Presentation.APL.ExecuteCommands",
+  "version"   : "1.3",
+  "token"     : "token",
+  "commands"  : [
+    {
+      "type": "Parallel",
+      "commands": [
+        {
+          "type": "AnimateItem",
+          "componentId" : "yuge01",
+          "easing": "ease-in-out",
+          "duration": 100,
+          "value":[
+            {
+              "property": "opacity",
+              "to": 1
+            },
+            {
+              "property": "transform",
+              "from": [
+                {"translateX": 0}
+              ],
+              "to": [
+                {"translateX": -80}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "AnimateItem",
+          "componentId" : "yuge02",
+          "easing": "ease-in-out",
+          "duration": 200,
+          "value":[
+            {
+              "property": "opacity",
+              "to": 1
+            },
+            {
+              "property": "transform",
+              "from": [
+                {"translateX": 0}
+              ],
+              "to": [
+                {"translateX": 80}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Parallel",
+      "commands": [
+        {
+          "type": "AnimateItem",
+          "componentId" : "yuge01",
+          "easing": "ease-in-out",
+          "duration": 500,
+          "value":[
+            {
+              "property": "opacity",
+              "to": 0
+            }
+          ]
+        },
+        {
+          "type": "AnimateItem",
+          "componentId" : "yuge02",
+          "easing": "ease-in-out",
+          "duration": 500,
+          "value":[
+            {
+              "property": "opacity",
+              "to": 0
+            }
+          ]
+        }        
+      ]
+    }
+  ]
+}

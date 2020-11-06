@@ -1,0 +1,65 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:023972248338:function:ask-eggtimerv2-default-default-1602077462980"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::alerts:timers:skill:readwrite"
+      }
+    ],
+    "privacyAndCompliance": {
+      "locales": {
+        "ja-JP": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "name": "ゆでたまごタイマー",
+          "summary": "ゆでたまごの出来上がり時間を教えてくれるスキルです。スキルを実行し、お好みの固さのタイマーが鳴ったら、たまごをお湯から取り出してください。",
+          "description": "【概要】\nゆでたまごの出来上がり時間を教えてくれるスキルです。\nこのスキルは一度に、とろとろたまご、半熟たまご、しっとりたまご、固ゆでたまごの４種類のタイマーをセットしますので、お好みの固さのタイマーが鳴ったら、お湯からたまごを取り出してください。\n\n【前提】\nたまごが準備できていること。\n沸騰しているお湯が準備できていること。\n\n【使い方】\n利用者：Alexa, ゆでたまごタイマーを開いて\nスキル：お湯は沸騰していますか？\n利用者：はい\nスキル：たまごの大きさは？\n利用者：Ｍサイズ\nスキル：たまごをお湯にいれてください。いれましたか？\n利用者：はい\n※タイマーが４つ同時にセットされます。\n\n【タイマーの削除方法】\n通常のタイマーと同様、タイマーのラベル名でタイマーを消すことができます。\n\n例）\nアレクサ、タイマーでとろとろたまごをキャンセルして\n\n【注意】\n火の強さや、一度に入れるたまごの量によっては、この通りにできない場合があります。",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png",
+          "updatesDescription": "2020.11.3\n画面付きデバイスにイラストが表示されるようになりました。",
+          "examplePhrases": [
+            "アレクサ、ゆでたまごタイマーを開いて",
+            "アレクサ、ゆでたまごタイマーを起動して",
+            "アレクサ、ゆでたまごタイマーでＭサイズ"
+          ],
+          "keywords": [
+            "タイマー",
+            "ゆでたまご"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "スキルにAPL、APLAを加えたので再申請させていただきます。\nスキルの流れに変更はありません。\n\nユーザ：アレクサ、ゆでたまごタイマーを開いて\nアレクサ：お湯は沸騰してますか？\nユーザ：はい\nアレクサ：たまごのサイズは？\nユーザ：Ｍサイズ\nアレクサ：たまごを入れてください。入れましたか？\nユーザ：はい\n※ゆでたまごのタイマーがセットされます。\n※タイマーが鳴るのをまつ。\n\nヘルプ：ヘルプを言う。",
+      "category": "COOKING_AND_RECIPE",
+      "distributionCountries": [
+        "JP"
+      ],
+      "automaticDistribution": {
+        "isActive": false
+      }
+    }
+  }
+}

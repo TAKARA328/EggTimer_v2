@@ -1,0 +1,24 @@
+{
+    "myData": {
+        "large": {
+            "bgImage": "https://dl.dropboxusercontent.com/s/yyl7zj20vknzth0/bg-l.png",
+            "nabe"   : "https://dl.dropboxusercontent.com/s/gfprkdrmwy7gcdk/nabe.png",
+            "hi"     : "https://dl.dropboxusercontent.com/s/2t788hwsbzdrzqn/hi.png",
+            "yuge01" : "https://dl.dropboxusercontent.com/s/96nwxls67c4p7ov/yuge01.png",
+            "yuge02" : "https://dl.dropboxusercontent.com/s/whqo2owt90orgjk/yuge02.png",
+            "tamagoS": "https://dl.dropboxusercontent.com/s/c3dotmkhaxudtrh/tamagoS.png",
+            "tamagoM": "https://dl.dropboxusercontent.com/s/9ch76mfqjlnhifh/tamagoM.png",
+            "tamagoL": "https://dl.dropboxusercontent.com/s/yd2acyntjrnzpu3/tamagoL.png"
+        },
+        "small": {
+            "bgImage": "https://dl.dropboxusercontent.com/s/joo2ti0i59pwya6/bg-s.png",
+            "nabe"   : "https://dl.dropboxusercontent.com/s/r4vzczadhw2gjv2/nabe.png",
+            "hi"     : "https://dl.dropboxusercontent.com/s/f44x94zxg874b60/hi.png",
+            "yuge01" : "https://dl.dropboxusercontent.com/s/7utr1ck76sx44lo/yuge01.png",
+            "yuge02" : "https://dl.dropboxusercontent.com/s/ybsrm1a5edwjhcy/yuge02.png",
+            "tamagoS": "https://dl.dropboxusercontent.com/s/eaaknr07mzt05q4/tamagoS.png",
+            "tamagoM": "https://dl.dropboxusercontent.com/s/rnh3ck8ceph49y5/tamagoM.png",
+            "tamagoL": "https://dl.dropboxusercontent.com/s/5qxcx1ohm22mki8/tamagoL.png"
+        }
+    }
+}

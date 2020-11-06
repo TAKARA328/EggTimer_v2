@@ -1,0 +1,107 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ゆで卵タイマー",
+            "intents": [
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "沸騰しています",
+                        "沸騰してます",
+                        "沸騰してる",
+                        "スタート",
+                        "開始",
+                        "はじめ",
+                        "やって",
+                        "いれた",
+                        "いれました"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "沸騰してない",
+                        "沸騰してなかった",
+                        "沸騰していません",
+                        "まだです",
+                        "いれてない",
+                        "いれていません"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SizeIntent",
+                    "slots": [
+                      {
+                        "name": "SizeName",
+                        "type": "SizeList"
+                      }
+                    ],
+                    "samples": [
+                      "{SizeName} です",
+                      "大きさは {SizeName}",
+                      "{SizeName} サイズ",
+                      "{SizeName} 玉"
+                    ]
+                },          
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "SizeList",
+                    "values": [
+                        {
+                            "id": "S",
+                            "name": {
+                                "value": "エス",
+                                "synonyms": [
+                                    "s",
+                                    "しょう",
+                                    "小さい",
+                                    "こ"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "M",
+                            "name": {
+                                "value": "エム",
+                                "synonyms": [
+                                    "m",
+                                    "ちゅう",
+                                    "ちゅうぐらい"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "L",
+                            "name": {
+                                "value": "エル",
+                                "synonyms": [
+                                    "l",
+                                    "だい",
+                                    "大きい",
+                                    "おお"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
